@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Sniper Island</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="auth-card">
+            <h1 class="auth-title">Login</h1>
+            <form id="loginForm" class="auth-form">
+                <label class="auth-label">
+                    Username
+                    <input class="auth-input" name="username" autocomplete="username" required />
+                </label>
+                <label class="auth-label">
+                    Password
+                    <input class="auth-input" type="password" name="password" autocomplete="current-password" required />
+                </label>
+                <div id="authError" class="auth-error" style="display:none;"></div>
+                <button class="btn auth-submit" type="submit">Login</button>
+            </form>
+            <p class="auth-footer">
+                No account? <a href="/register">Create one</a>
+            </p>
+        </div>
+    </div>
+    <script src="/assets/js/ui.js"></script>
+    <script src="/assets/js/auth.js"></script>
+</body>
+</html>
+
+

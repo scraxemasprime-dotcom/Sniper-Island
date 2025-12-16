@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account - Sniper Island</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="account-page">
+        <div class="container">
+            <div class="account-shell">
+                <header class="account-header">
+                    <div class="profile">
+                        <div class="avatar avatar--editable" id="accountAvatar" aria-hidden="true">
+                            <img id="accountAvatarImg" class="avatar-img" alt="Profile picture" style="display:none;">
+                            <span id="accountAvatarInitial">?</span>
+                            <button type="button" class="avatar-edit" id="avatarUploadBtn" aria-label="Change profile picture" title="Change profile picture">Change</button>
+                            <input type="file" id="avatarFileInput" accept="image/png,image/jpeg,image/webp,image/gif" style="display:none;">
+                        </div>
+                        <div class="profile-meta">
+                            <div class="profile-title-row">
+                                <h1 class="profile-name" id="accountUsername">Account</h1>
+                                <div class="profile-actions">
+                                    <button type="button" class="icon-btn" id="editProfileBtn" aria-label="Edit profile" title="Edit profile">Edit</button>
+                                    <button type="button" class="icon-btn" id="settingsBtn" aria-label="Settings" title="Settings">Settings</button>
+                                </div>
+                            </div>
+                            <div class="profile-subtitle">
+                                Member since <span id="accountSince">—</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <section class="stats-grid" aria-label="Account stats">
+                    <div class="stat-card">
+                        <div class="stat-label">Favorites</div>
+                        <div class="stat-value" id="statFavorites">—</div>
+                        <div class="stat-muted">Saved to your account</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Library</div>
+                        <div class="stat-value" id="statLibrary">—</div>
+                        <div class="stat-muted">Total series available</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-label">Account</div>
+                        <div class="stat-value" id="statUsername">—</div>
+                        <div class="stat-muted">Signed in</div>
+                    </div>
+                </section>
+
+                <section class="favorites-section" id="profileSettingsSection" style="display:none;">
+                    <div class="section-head">
+                        <h2 class="section-title">Profile Settings</h2>
+                        <div class="section-actions">
+                            <button type="button" class="ghost-btn" id="closeProfileSettingsBtn">Close</button>
+                        </div>
+                    </div>
+                    <form id="profileSettingsForm" class="profile-settings-form">
+                        <label class="auth-label">
+                            Username
+                            <input class="auth-input" id="profileUsernameInput" name="username" autocomplete="username" pattern="[A-Za-z0-9_]{3,24}" placeholder="3-24 letters/numbers/_">
+                        </label>
+                        <label class="auth-label">
+                            Bio
+                            <textarea class="auth-input profile-bio-input" id="profileBioInput" name="bio" maxlength="280" rows="4" placeholder="Tell people about yourself (max 280 chars)"></textarea>
+                        </label>
+                        <div class="auth-error" id="profileSettingsError" style="display:none;"></div>
+                        <div class="profile-settings-actions">
+                            <button type="submit" class="ghost-btn">Save</button>
+                            <button type="button" class="ghost-btn" id="cancelProfileSettingsBtn">Cancel</button>
+                        </div>
+                    </form>
+                </section>
+
+                <section class="favorites-section">
+                    <div class="section-head">
+                        <h2 class="section-title">Continue Reading</h2>
+                    </div>
+                    <div id="leftOffSlot" class="favorites-grid" aria-live="polite">
+                        <div class="muted">Loading…</div>
+                    </div>
+                </section>
+
+                <section class="favorites-section">
+                    <div class="section-head">
+                        <h2 class="section-title">Favorites</h2>
+                        <div class="section-actions">
+                            <button type="button" class="ghost-btn" id="refreshFavoritesBtn">Refresh</button>
+                        </div>
+                    </div>
+                    <div id="favoritesGrid" class="favorites-grid" aria-live="polite">
+                        <div class="muted">Loading…</div>
+                    </div>
+                </section>
+
+                <section class="favorites-section">
+                    <div class="section-head">
+                        <h2 class="section-title">Recently Viewed</h2>
+                        <div class="section-actions">
+                            <button type="button" class="ghost-btn" id="refreshRecentBtn">Refresh</button>
+                            <button type="button" class="ghost-btn danger-ghost" id="clearRecentBtn">Clear</button>
+                        </div>
+                    </div>
+                    <div id="recentGrid" class="favorites-grid" aria-live="polite">
+                        <div class="muted">Loading…</div>
+                    </div>
+                </section>
+
+                <footer class="account-footer">
+                    <button class="outline-btn" id="logoutBtn" type="button">Logout</button>
+
+                    <details class="danger-zone">
+                        <summary class="danger-summary">Delete Account</summary>
+                        <div class="danger-body">
+                            <p class="danger-text">
+                                This permanently deletes your account and favorites. This can’t be undone.
+                            </p>
+                            <form id="deleteAccountForm" class="danger-form">
+                                <label class="auth-label">
+                                    Confirm with your password
+                                    <input class="auth-input" type="password" name="password" autocomplete="current-password" required />
+                                </label>
+                                <label class="auth-label">
+                                    Type <strong>DELETE</strong> to confirm
+                                    <input class="auth-input" name="confirmText" placeholder="DELETE" required />
+                                </label>
+                                <div class="auth-error" id="deleteError" style="display:none;"></div>
+                                <button type="submit" class="danger-btn">Delete Account</button>
+                            </form>
+                        </div>
+                    </details>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/ui.js"></script>
+    <script src="/assets/js/auth.js"></script>
+</body>
+</html>
+
+

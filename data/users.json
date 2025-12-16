@@ -1,0 +1,169 @@
+{
+  "users": [
+    {
+      "id": "fba89b03-cfb3-4235-9e39-5166e95b5164",
+      "username": "Scraxemas",
+      "passwordHash": "$2b$10$0EcZYpaBl1Ii5V5H5GMPo.LzdGWt/4rA7fzPJLKYs.Po.b2lQ/IZC",
+      "createdAt": "2025-12-16T05:02:51.028Z",
+      "favorites": [],
+      "recentViewed": [
+        {
+          "key": "chapter:one-piece:ch1",
+          "type": "chapter",
+          "seriesId": "one-piece",
+          "chapterId": "ch1",
+          "at": "2025-12-16T07:05:07.990Z"
+        },
+        {
+          "key": "series:one-piece:",
+          "type": "series",
+          "seriesId": "one-piece",
+          "chapterId": "",
+          "at": "2025-12-16T07:05:06.312Z"
+        },
+        {
+          "key": "series:jojo-bizarre-adventure:",
+          "type": "series",
+          "seriesId": "jojo-bizarre-adventure",
+          "chapterId": "",
+          "at": "2025-12-16T07:03:38.527Z"
+        },
+        {
+          "key": "series:attack-on-titan:",
+          "type": "series",
+          "seriesId": "attack-on-titan",
+          "chapterId": "",
+          "at": "2025-12-16T06:57:50.529Z"
+        },
+        {
+          "key": "series:boruto-two-blue-vortex:",
+          "type": "series",
+          "seriesId": "boruto-two-blue-vortex",
+          "chapterId": "",
+          "at": "2025-12-16T06:57:48.116Z"
+        },
+        {
+          "key": "series:boruto:",
+          "type": "series",
+          "seriesId": "boruto",
+          "chapterId": "",
+          "at": "2025-12-16T06:57:46.186Z"
+        },
+        {
+          "key": "series:naruto-shippuden:",
+          "type": "series",
+          "seriesId": "naruto-shippuden",
+          "chapterId": "",
+          "at": "2025-12-16T06:57:44.853Z"
+        },
+        {
+          "key": "series:naruto:",
+          "type": "series",
+          "seriesId": "naruto",
+          "chapterId": "",
+          "at": "2025-12-16T06:57:43.351Z"
+        },
+        {
+          "key": "series:dragon-ball-super:",
+          "type": "series",
+          "seriesId": "dragon-ball-super",
+          "chapterId": "",
+          "at": "2025-12-16T06:57:41.860Z"
+        },
+        {
+          "key": "series:dragon-ball:",
+          "type": "series",
+          "seriesId": "dragon-ball",
+          "chapterId": "",
+          "at": "2025-12-16T06:57:40.284Z"
+        },
+        {
+          "key": "series:my-hero-academia:",
+          "type": "series",
+          "seriesId": "my-hero-academia",
+          "chapterId": "",
+          "at": "2025-12-16T06:57:38.367Z"
+        },
+        {
+          "key": "series:jujutsu-kaisen:",
+          "type": "series",
+          "seriesId": "jujutsu-kaisen",
+          "chapterId": "",
+          "at": "2025-12-16T06:57:36.722Z"
+        },
+        {
+          "key": "series:black-clover:",
+          "type": "series",
+          "seriesId": "black-clover",
+          "chapterId": "",
+          "at": "2025-12-16T06:57:35.033Z"
+        },
+        {
+          "key": "series:one-punch-man:",
+          "type": "series",
+          "seriesId": "one-punch-man",
+          "chapterId": "",
+          "at": "2025-12-16T06:57:33.479Z"
+        },
+        {
+          "key": "chapter:one-piece:ch1168",
+          "type": "chapter",
+          "seriesId": "one-piece",
+          "chapterId": "ch1168",
+          "at": "2025-12-16T06:55:55.652Z"
+        },
+        {
+          "key": "series:overlord:",
+          "type": "series",
+          "seriesId": "overlord",
+          "chapterId": "",
+          "at": "2025-12-16T06:45:00.288Z"
+        },
+        {
+          "key": "chapter:one-piece:ch6",
+          "type": "chapter",
+          "seriesId": "one-piece",
+          "chapterId": "ch6",
+          "at": "2025-12-16T06:41:54.193Z"
+        },
+        {
+          "key": "chapter:one-piece:ch2",
+          "type": "chapter",
+          "seriesId": "one-piece",
+          "chapterId": "ch2",
+          "at": "2025-12-16T05:13:18.874Z"
+        },
+        {
+          "key": "chapter:one-piece:ch3",
+          "type": "chapter",
+          "seriesId": "one-piece",
+          "chapterId": "ch3",
+          "at": "2025-12-16T05:11:48.314Z"
+        },
+        {
+          "key": "chapter:one-piece:ch7",
+          "type": "chapter",
+          "seriesId": "one-piece",
+          "chapterId": "ch7",
+          "at": "2025-12-16T05:11:40.802Z"
+        },
+        {
+          "key": "chapter:one-piece:ch8",
+          "type": "chapter",
+          "seriesId": "one-piece",
+          "chapterId": "ch8",
+          "at": "2025-12-16T05:09:35.974Z"
+        }
+      ],
+      "leftOff": {
+        "seriesId": "one-piece",
+        "chapterId": "ch1",
+        "pageIndex": 0,
+        "pageCount": 53,
+        "at": "2025-12-16T07:05:08.391Z"
+      },
+      "avatarUrl": "/uploads/avatars/fba89b03-cfb3-4235-9e39-5166e95b5164.jpg?t=1765861380288",
+      "bio": "I love my asawa!!!!"
+    }
+  ]
+}

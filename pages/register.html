@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Sniper Island</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="auth-card">
+            <h1 class="auth-title">Create Account</h1>
+            <form id="registerForm" class="auth-form">
+                <label class="auth-label">
+                    Username
+                    <input class="auth-input" name="username" autocomplete="username" required />
+                    <small class="auth-hint">3–24 chars, letters/numbers/underscore</small>
+                </label>
+                <label class="auth-label">
+                    Password
+                    <input class="auth-input" type="password" name="password" autocomplete="new-password" required />
+                    <small class="auth-hint">At least 8 characters</small>
+                </label>
+                <div id="authError" class="auth-error" style="display:none;"></div>
+                <button class="btn auth-submit" type="submit">Create Account</button>
+            </form>
+            <p class="auth-footer">
+                Already have an account? <a href="/login">Login</a>
+            </p>
+        </div>
+    </div>
+    <script src="/assets/js/ui.js"></script>
+    <script src="/assets/js/auth.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,406 @@
+{
+  "series": [
+    {
+      "id": "one-piece",
+      "name": "One Piece",
+      "author": "Eiichiro Oda",
+      "cover": "/content/manga/one-piece/cover.jpg",
+      "description": "A rubber-powered pirate sails the seas in search of the ultimate treasure while forging unbreakable bonds with his crew.",
+      "chapters": [
+        {
+          "id": "ch1",
+          "title": "Chapter 1: Romance Dawn",
+          "pages": [
+            "/content/manga/one-piece/ch1/00.png",
+            "/content/manga/one-piece/ch1/01.png",
+            "/content/manga/one-piece/ch1/02.png",
+            "/content/manga/one-piece/ch1/03.png",
+            "/content/manga/one-piece/ch1/04.png",
+            "/content/manga/one-piece/ch1/05.png",
+            "/content/manga/one-piece/ch1/06.png",
+            "/content/manga/one-piece/ch1/07.png",
+            "/content/manga/one-piece/ch1/08.png",
+            "/content/manga/one-piece/ch1/09.png",
+            "/content/manga/one-piece/ch1/10.png",
+            "/content/manga/one-piece/ch1/11.png",
+            "/content/manga/one-piece/ch1/12.png",
+            "/content/manga/one-piece/ch1/13.png",
+            "/content/manga/one-piece/ch1/14.png",
+            "/content/manga/one-piece/ch1/15.png",
+            "/content/manga/one-piece/ch1/16.png",
+            "/content/manga/one-piece/ch1/17.png",
+            "/content/manga/one-piece/ch1/18.png",
+            "/content/manga/one-piece/ch1/19.png",
+            "/content/manga/one-piece/ch1/20.png",
+            "/content/manga/one-piece/ch1/21.png",
+            "/content/manga/one-piece/ch1/22.png",
+            "/content/manga/one-piece/ch1/23.png",
+            "/content/manga/one-piece/ch1/24.png",
+            "/content/manga/one-piece/ch1/25.png",
+            "/content/manga/one-piece/ch1/26.png",
+            "/content/manga/one-piece/ch1/27.png",
+            "/content/manga/one-piece/ch1/28.png",
+            "/content/manga/one-piece/ch1/29.png",
+            "/content/manga/one-piece/ch1/30.png",
+            "/content/manga/one-piece/ch1/31.png",
+            "/content/manga/one-piece/ch1/32.png",
+            "/content/manga/one-piece/ch1/33.png",
+            "/content/manga/one-piece/ch1/34.png",
+            "/content/manga/one-piece/ch1/35.png",
+            "/content/manga/one-piece/ch1/36.png",
+            "/content/manga/one-piece/ch1/37.png",
+            "/content/manga/one-piece/ch1/38.png",
+            "/content/manga/one-piece/ch1/39.png",
+            "/content/manga/one-piece/ch1/40.png",
+            "/content/manga/one-piece/ch1/41.png",
+            "/content/manga/one-piece/ch1/42.png",
+            "/content/manga/one-piece/ch1/43.png",
+            "/content/manga/one-piece/ch1/44.png",
+            "/content/manga/one-piece/ch1/45.png",
+            "/content/manga/one-piece/ch1/46.png",
+            "/content/manga/one-piece/ch1/47.png",
+            "/content/manga/one-piece/ch1/48.png",
+            "/content/manga/one-piece/ch1/49.png",
+            "/content/manga/one-piece/ch1/50.png",
+            "/content/manga/one-piece/ch1/51.png",
+            "/content/manga/one-piece/ch1/99.png"
+          ]
+        },
+        {
+          "id": "ch2",
+          "title": "Chapter 2: They Call Him \"Straw Hat Luffy\"",
+          "pages": [
+            "/content/manga/one-piece/ch2/02.png",
+            "/content/manga/one-piece/ch2/03.png",
+            "/content/manga/one-piece/ch2/04.png",
+            "/content/manga/one-piece/ch2/05.png",
+            "/content/manga/one-piece/ch2/06.png",
+            "/content/manga/one-piece/ch2/07.png",
+            "/content/manga/one-piece/ch2/08.png",
+            "/content/manga/one-piece/ch2/09.png",
+            "/content/manga/one-piece/ch2/10.png",
+            "/content/manga/one-piece/ch2/11.png",
+            "/content/manga/one-piece/ch2/12.png",
+            "/content/manga/one-piece/ch2/13.png",
+            "/content/manga/one-piece/ch2/14.png",
+            "/content/manga/one-piece/ch2/15.png",
+            "/content/manga/one-piece/ch2/16.png",
+            "/content/manga/one-piece/ch2/17.png",
+            "/content/manga/one-piece/ch2/18.png",
+            "/content/manga/one-piece/ch2/19.png",
+            "/content/manga/one-piece/ch2/20.png",
+            "/content/manga/one-piece/ch2/21.png",
+            "/content/manga/one-piece/ch2/22.png",
+            "/content/manga/one-piece/ch2/23.png",
+            "/content/manga/one-piece/ch2/24.png",
+            "/content/manga/one-piece/ch2/99.jpg"
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "jojo-bizarre-adventure",
+      "name": "JoJo's Bizarre Adventure",
+      "author": "Hirohiko Araki",
+      "cover": "/content/manga/jojo/cover.jpg",
+      "description": "Multiple generations of the Joestar family battle supernatural foes using unique powers and style.",
+      "chapters": []
+    },
+
+    {
+      "id": "one-punch-man",
+      "name": "One Punch Man",
+      "author": "ONE",
+      "cover": "/content/manga/one-punch-man/cover.jpg",
+      "description": "A bored hero who can defeat any enemy with one punch searches for meaning in heroism.",
+      "chapters": []
+    },
+
+    {
+      "id": "black-clover",
+      "name": "Black Clover",
+      "author": "Yūki Tabata",
+      "cover": "/content/manga/black-clover/cover.jpg",
+      "description": "A magicless boy in a magical kingdom dreams of becoming the Wizard King through sheer determination.",
+      "chapters": []
+    },
+
+    {
+      "id": "jujutsu-kaisen",
+      "name": "Jujutsu Kaisen",
+      "author": "Gege Akutami",
+      "cover": "/content/manga/jujutsu-kaisen/cover.jpg",
+      "description": "A high schooler enters a brutal war against curses after becoming host to a powerful demon.",
+      "chapters": []
+    },
+
+    {
+      "id": "my-hero-academia",
+      "name": "My Hero Academia",
+      "author": "Kohei Horikoshi",
+      "cover": "/content/manga/my-hero-academia/cover.jpg",
+      "description": "A powerless boy in a superpowered society trains to become the world's greatest hero.",
+      "chapters": []
+    },
+
+    {
+      "id": "dragon-ball",
+      "name": "Dragon Ball",
+      "author": "Akira Toriyama",
+      "cover": "/content/manga/dragon-ball/cover.jpg",
+      "description": "A pure-hearted martial artist grows from a boy into a legendary warrior while protecting Earth from ever-stronger threats.",
+      "chapters": []
+    },
+    {
+      "id": "dragon-ball-super",
+      "name": "Dragon Ball Super",
+      "author": "Akira Toriyama",
+      "cover": "/content/manga/dragon-ball-super/cover.jpg",
+      "description": "Gods, universes, and multiversal tournaments push Goku and friends beyond their limits.",
+      "chapters": []
+    },
+
+    {
+      "id": "naruto",
+      "name": "Naruto",
+      "author": "Masashi Kishimoto",
+      "cover": "/content/manga/naruto/cover.jpg",
+      "description": "A loud, lonely ninja strives to earn respect and become his village's greatest leader.",
+      "chapters": []
+    },
+    {
+      "id": "naruto-shippuden",
+      "name": "Naruto: Shippuden",
+      "author": "Masashi Kishimoto",
+      "cover": "/content/manga/naruto-shippuden/cover.jpg",
+      "description": "Naruto faces war, loss, and destiny as the ninja world teeters on the brink of destruction.",
+      "chapters": []
+    },
+    {
+      "id": "boruto",
+      "name": "Boruto: Naruto Next Generations",
+      "author": "Ukyo Kodachi",
+      "cover": "/content/manga/boruto/cover.jpg",
+      "description": "The son of a legendary hero struggles to define himself in a technologically advancing ninja world.",
+      "chapters": []
+    },
+    {
+      "id": "boruto-two-blue-vortex",
+      "name": "Boruto: Two Blue Vortex",
+      "author": "Mikio Ikemoto",
+      "cover": "/content/manga/boruto-two-blue-vortex/cover.jpg",
+      "description": "After a devastating twist of fate, Boruto returns stronger and hunted by the world he once protected.",
+      "chapters": []
+    },
+
+    {
+      "id": "attack-on-titan",
+      "name": "Attack on Titan",
+      "author": "Hajime Isayama",
+      "cover": "/content/manga/attack-on-titan/cover.jpg",
+      "description": "Humanity fights for survival behind walls as horrifying truths about their world are revealed.",
+      "chapters": []
+    },
+
+    {
+      "id": "demon-slayer",
+      "name": "Demon Slayer: Kimetsu no Yaiba",
+      "author": "Koyoharu Gotouge",
+      "cover": "/content/manga/demon-slayer/cover.jpg",
+      "description": "A kind-hearted boy hunts demons to save his sister and avenge his family.",
+      "chapters": []
+    },
+
+    {
+      "id": "bleach",
+      "name": "Bleach",
+      "author": "Tite Kubo",
+      "cover": "/content/manga/bleach/cover.jpg",
+      "description": "A teenager gains the powers of a Soul Reaper and becomes entangled in battles between the living and the dead.",
+      "chapters": []
+    },
+
+    {
+      "id": "death-note",
+      "name": "Death Note",
+      "author": "Tsugumi Ohba & Takeshi Obata",
+      "cover": "/content/manga/death-note/cover.jpg",
+      "description": "A genius student uses a supernatural notebook to impose his vision of justice on the world.",
+      "chapters": []
+    },
+
+    {
+      "id": "fullmetal-alchemist",
+      "name": "Fullmetal Alchemist",
+      "author": "Hiromu Arakawa",
+      "cover": "/content/manga/fullmetal-alchemist/cover.jpg",
+      "description": "Two brothers use alchemy to atone for a forbidden ritual and reclaim what they lost.",
+      "chapters": []
+    },
+
+    {
+      "id": "hunter-x-hunter",
+      "name": "Hunter × Hunter",
+      "author": "Yoshihiro Togashi",
+      "cover": "/content/manga/hunter-x-hunter/cover.jpg",
+      "description": "A determined boy enters a dangerous world of elite Hunters to find his missing father.",
+      "chapters": []
+    },
+
+    {
+      "id": "pokemon-adventures",
+      "name": "Pokémon Adventures",
+      "author": "Hidenori Kusaka & Satoshi Yamamoto",
+      "cover": "/content/manga/pokemon-adventures/cover.jpg",
+      "description": "Young trainers journey through the Pokémon world facing darker and more intense challenges than the games.",
+      "chapters": []
+    },
+
+    {
+      "id": "chainsaw-man",
+      "name": "Chainsaw Man",
+      "author": "Tatsuki Fujimoto",
+      "cover": "/content/manga/chainsaw-man/cover.jpg",
+      "description": "A debt-ridden teen merges with a devil and is thrown into a violent, chaotic world of demon hunters.",
+      "chapters": []
+    },
+
+    {
+      "id": "spy-x-family",
+      "name": "Spy × Family",
+      "author": "Tatsuya Endo",
+      "cover": "/content/manga/spy-x-family/cover.jpg",
+      "description": "A master spy forms a fake family, unaware that his wife and daughter hide dangerous secrets of their own.",
+      "chapters": []
+    },
+
+    {
+      "id": "berserk",
+      "name": "Berserk",
+      "author": "Kentaro Miura",
+      "cover": "/content/manga/berserk/cover.jpg",
+      "description": "A scarred mercenary fights fate, demons, and despair in a dark medieval fantasy world.",
+      "chapters": []
+    },
+
+    {
+      "id": "fairy-tail",
+      "name": "Fairy Tail",
+      "author": "Hiro Mashima",
+      "cover": "/content/manga/fairy-tail/cover.jpg",
+      "description": "A group of eccentric wizards go on magical adventures bound by friendship and loyalty.",
+      "chapters": []
+    },
+
+    {
+      "id": "dr-stone",
+      "name": "Dr. Stone",
+      "author": "Riichiro Inagaki & Boichi",
+      "cover": "/content/manga/dr-stone/cover.jpg",
+      "description": "A science genius rebuilds civilization from scratch after humanity is turned to stone.",
+      "chapters": []
+    },
+
+    {
+      "id": "vinland-saga",
+      "name": "Vinland Saga",
+      "author": "Makoto Yukimura",
+      "cover": "/content/manga/vinland-saga/cover.jpg",
+      "description": "A young Viking seeks revenge before confronting the true meaning of strength and peace.",
+      "chapters": []
+    },
+
+    {
+      "id": "mob-psycho-100",
+      "name": "Mob Psycho 100",
+      "author": "ONE",
+      "cover": "/content/manga/mob-psycho-100/cover.jpg",
+      "description": "An overpowered psychic tries to live a normal life while learning emotional maturity matters more than power.",
+      "chapters": []
+    },
+
+    {
+      "id": "fire-force",
+      "name": "Fire Force",
+      "author": "Atsushi Ohkubo",
+      "cover": "/content/manga/fire-force/cover.jpg",
+      "description": "Special firefighters battle human combustion while uncovering a conspiracy behind the flames.",
+      "chapters": []
+    },
+
+    {
+      "id": "seven-deadly-sins",
+      "name": "Seven Deadly Sins",
+      "author": "Nakaba Suzuki",
+      "cover": "/content/manga/seven-deadly-sins/cover.jpg",
+      "description": "Disgraced legendary knights reunite to save a kingdom from corruption and war.",
+      "chapters": []
+    },
+
+    {
+      "id": "frieren-beyond-journeys-end",
+      "name": "Frieren: Beyond Journey’s End",
+      "author": "Kanehito Yamada (story), Tsukasa Abe (art)",
+      "cover": "/content/manga/frieren-beyond-journeys-end/cover.jpg",
+      "description": "A long-lived elf mage reflects on time, loss, and legacy after the hero’s journey has already ended.",
+      "chapters": []
+    },
+    {
+      "id": "kaiju-no-8",
+      "name": "Kaiju No. 8",
+      "author": "Naoya Matsumoto",
+      "cover": "/content/manga/kaiju-no-8/cover.jpg",
+      "description": "In a world plagued by monsters, a middle-aged cleanup worker gains the power to transform into a kaiju himself.",
+      "chapters": []
+    },
+    {
+      "id": "gachiakuta",
+      "name": "Gachiakuta",
+      "author": "Kei Urana",
+      "cover": "/content/manga/gachiakuta/cover.jpg",
+      "description": "A cast-out youth survives a brutal junk-filled underworld where discarded objects and people become deadly weapons.",
+      "chapters": []
+    },
+    {
+      "id": "solo-leveling",
+      "name": "Solo Leveling",
+      "author": "Chugong",
+      "cover": "/content/manga/solo-leveling/cover.jpg",
+      "description": "A weak hunter gains a unique leveling ability, allowing him to grow infinitely stronger in a monster-filled world.",
+      "chapters": []
+    },
+    {
+      "id": "that-time-i-got-reincarnated-as-a-slime",
+      "name": "That Time I Got Reincarnated as a Slime",
+      "author": "Fuse",
+      "cover": "/content/manga/that-time-i-got-reincarnated-as-a-slime/cover.jpg",
+      "description": "A man reincarnates as a slime monster and uses evolving abilities to build a powerful, inclusive fantasy nation.",
+      "chapters": []
+    },
+    {
+      "id": "overlord",
+      "name": "Overlord",
+      "author": "Kugane Maruyama",
+      "cover": "/content/manga/overlord/cover.jpg",
+      "description": "A trapped MMO player remains logged in as an undead sorcerer and decides to conquer the world with overwhelming power.",
+      "chapters": []
+    },
+    {
+      "id": "mushoku-tensei-jobless-reincarnation",
+      "name": "Mushoku Tensei: Jobless Reincarnation",
+      "author": "Rifujin na Magonote",
+      "cover": "/content/manga/mushoku-tensei-jobless-reincarnation/cover.jpg",
+      "description": "A failed man is reborn into a fantasy world and resolves to live his new life without regrets.",
+      "chapters": []
+    },
+    {
+      "id": "the-rising-of-the-shield-hero",
+      "name": "The Rising of the Shield Hero",
+      "author": "Aneko Yusagi",
+      "cover": "/content/manga/the-rising-of-the-shield-hero/cover.jpg",
+      "description": "A summoned hero armed only with a shield is betrayed and must rise from hatred and hardship to survive.",
+      "chapters": []
+    }
+  ]
+}

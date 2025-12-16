@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account - Sniper Island</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="auth-card">
+            <div class="auth-tabs">
+                <button type="button" class="auth-tab" data-target="loginPanel">Login</button>
+                <button type="button" class="auth-tab" data-target="registerPanel">Register</button>
+            </div>
+
+            <div id="loginPanel" class="auth-panel">
+                <h1 class="auth-title">Login</h1>
+                <form id="loginForm" class="auth-form">
+                    <label class="auth-label">
+                        Username
+                        <input class="auth-input" name="username" autocomplete="username" required />
+                    </label>
+                    <label class="auth-label">
+                        Password
+                        <input class="auth-input" type="password" name="password" autocomplete="current-password" required />
+                    </label>
+                    <div class="auth-error" data-auth-error style="display:none;"></div>
+                    <button class="btn auth-submit" type="submit">Login</button>
+                </form>
+            </div>
+
+            <div id="registerPanel" class="auth-panel" style="display:none;">
+                <h1 class="auth-title">Create Account</h1>
+                <form id="registerForm" class="auth-form">
+                    <label class="auth-label">
+                        Username
+                        <input class="auth-input" name="username" autocomplete="username" required />
+                        <small class="auth-hint">3–24 chars, letters/numbers/underscore</small>
+                    </label>
+                    <label class="auth-label">
+                        Password
+                        <input class="auth-input" type="password" name="password" autocomplete="new-password" required />
+                        <small class="auth-hint">At least 8 characters</small>
+                    </label>
+                    <div class="auth-error" data-auth-error style="display:none;"></div>
+                    <button class="btn auth-submit" type="submit">Create Account</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="/assets/js/ui.js"></script>
+    <script src="/assets/js/auth.js"></script>
+</body>
+</html>
+
+
