@@ -29,7 +29,7 @@ The app will be available at: http://localhost:3000
 
 ```
 manga-anime-site/
-  pages/          - HTML pages
+  docs/           - HTML pages
   assets/         - CSS and JavaScript files
   data/           - JSON data files (manga.json)
   content/        - Manga content (images)

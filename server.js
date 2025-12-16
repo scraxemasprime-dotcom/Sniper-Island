@@ -49,17 +49,17 @@ const uploadAvatar = multer({
 
 // Serve pages (routes must come before static middleware)
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'pages', 'manga.html'));
+    res.sendFile(path.join(__dirname, 'docs', 'manga.html'));
 });
 
 app.get('/manga', (req, res) => {
-    res.sendFile(path.join(__dirname, 'pages', 'manga.html'));
+    res.sendFile(path.join(__dirname, 'docs', 'manga.html'));
 });
 
 // Chapters route - must be before static middleware
 app.get('/chapters', (req, res, next) => {
     console.log('Chapters route hit! Query:', req.query);
-    const filePath = path.resolve(__dirname, 'pages', 'chapters.html');
+    const filePath = path.resolve(__dirname, 'docs', 'chapters.html');
     console.log('Serving chapters page from:', filePath);
     res.sendFile(filePath, (err) => {
         if (err) {
@@ -72,15 +72,15 @@ app.get('/chapters', (req, res, next) => {
 });
 
 app.get('/reader', (req, res) => {
-    res.sendFile(path.join(__dirname, 'pages', 'reader.html'));
+    res.sendFile(path.join(__dirname, 'docs', 'reader.html'));
 });
 
 app.get('/auth', (req, res) => {
-    res.sendFile(path.join(__dirname, 'pages', 'auth.html'));
+    res.sendFile(path.join(__dirname, 'docs', 'auth.html'));
 });
 
 app.get('/profile', (req, res) => {
-    res.sendFile(path.join(__dirname, 'pages', 'profile.html'));
+    res.sendFile(path.join(__dirname, 'docs', 'profile.html'));
 });
 
 // Backward-compat: old URLs redirect to the combined auth page
@@ -88,7 +88,7 @@ app.get('/login', (req, res) => res.redirect('/auth#login'));
 app.get('/register', (req, res) => res.redirect('/auth#register'));
 
 app.get('/account', requireAuth, (req, res) => {
-    res.sendFile(path.join(__dirname, 'pages', 'account.html'));
+    res.sendFile(path.join(__dirname, 'docs', 'account.html'));
 });
 
 // API routes for JSON data
